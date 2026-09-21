@@ -1,75 +1,65 @@
-# React + TypeScript + Vite
+# André Cesar | Portfólio Pessoal
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Portfólio pessoal desenvolvido do zero em React, TypeScript e Tailwind CSS, com identidade visual própria inspirada em ferramentas de desenvolvedor e dashboards de sistema.
 
-Currently, two official plugins are available:
+🔗 **Site publicado:** [andrecesar-dev.vercel.app](https://andrecesar-dev.vercel.app)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## Sobre o projeto
 
-## React Compiler
+Este portfólio foi construído como parte da minha transição de carreira para desenvolvimento web, servindo tanto como vitrine de projetos quanto como espaço de prática dos conceitos que venho aprendendo em React, TypeScript e boas práticas de frontend.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## Tecnologias utilizadas
 
-## Expanding the ESLint configuration
+- **React** com **TypeScript**
+- **Tailwind CSS** para estilização
+- **Vite** como ferramenta de build
+- **Framer Motion** para animações de entrada e parallax
+- Dados de projetos e tecnologias centralizados em arquivos próprios, facilitando manutenção futura
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+## Funcionalidades
 
-```js
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+- Design responsivo, com abordagem mobile first
+- Animações suaves ao rolar a página
+- Grid de fundo com efeito parallax sutil
+- Seção de tecnologias organizada por categoria, com filtro por abas
+- Botão de currículo para visualização direta em PDF
+- Botão de cópia de e-mail com feedback visual
+- Seção de projetos com dados curados manualmente, priorizando qualidade sobre quantidade
 
-      // Remove tseslint.configs.recommended and replace with this
-      tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      tseslint.configs.stylisticTypeChecked,
-
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
+## Estrutura do projeto
 
 ```
+src/
+├── components/     Componentes de cada seção da página
+├── data/            Dados centralizados (tecnologias e projetos)
+├── types/           Interfaces e tipos TypeScript
+├── assets/          Imagens e arquivos estáticos
+├── App.tsx          Composição principal das seções
+└── main.tsx         Ponto de entrada da aplicação
 
-You can also install [eslint-plugin-react-x](https://npmx.dev/package/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://npmx.dev/package/eslint-plugin-react-dom) for React-specific lint rules:
-
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
-
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-
+public/
+└── curriculo-andre-cesar.pdf
 ```
+
+## Rodando o projeto localmente
+
+Clone o repositório e instale as dependências.
+
+```bash
+git clone https://github.com/andrecesarhdev/andre-portfolio.git
+cd andre-portfolio
+npm install
+npm run dev
+```
+
+O projeto abre por padrão em `http://localhost:5173`.
+
+## Autor
+
+**André Cesar Henrique dos Santos Paiva**
+
+Desenvolvedor Full Stack em transição de carreira, com foco em JavaScript, TypeScript, React e Node.js.
+
+- GitHub: [github.com/andrecesarhdev](https://github.com/andrecesarhdev)
+- LinkedIn: [linkedin.com/in/andrecesar-dev](https://www.linkedin.com/in/andrecesar-dev/)
+- E-mail: andrecesarhenrique@gmail.com
