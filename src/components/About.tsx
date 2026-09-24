@@ -5,7 +5,7 @@ const aboutCards = [
   },
   {
     title: "Como trabalho",
-    text: "Sou curioso por natureza, prefiro entender o porquê antes de simplesmente copiar uma solução. Gosto de testar, quebrar, consertar e só então seguir em frente. Aprendizado prático fala mais alto pra mim do que teoria pura.",
+    text: "Sou curioso por natureza, prefiro entender o porquê antes de simplesmente copiar uma solução. Uso ferramentas de IA no meu processo, sempre buscando entender cada linha antes de aceitar qualquer sugestão. Aprendizado prático fala mais alto pra mim do que teoria pura.",
   },
   {
     title: "O que busco",
