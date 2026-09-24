@@ -28,4 +28,5 @@ export const technologies: Technology[] = [
   { name: "GitHub", category: "tools", status: "Comfortable" },
   { name: "VS Code", category: "tools", status: "Comfortable" },
   { name: "Insomnia", category: "tools", status: "Comfortable" },
+  { name: "IA Aplicada ao Desenvolvimento", category: "tools", status: "Learning & Building" },
 ];
