@@ -17,7 +17,7 @@ function Footer() {
           <a href="https://www.linkedin.com/in/andrecesar-dev/" target="_blank" rel="noopener noreferrer" className="text-text-secondary hover:text-accent text-sm transition-colors">
             LinkedIn
           </a>
-          <a href="mailto:andrecesarhenrique@gmail.com" className="text-text-secondary hover:text-accent text-sm transition-colors">
+          <a href="mailto:andrecesarprogramador@gmail.com" className="text-text-secondary hover:text-accent text-sm transition-colors">
             E-mail
           </a>
         </div>

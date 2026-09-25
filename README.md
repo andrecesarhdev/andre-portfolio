@@ -62,4 +62,4 @@ Desenvolvedor Full Stack em transição de carreira, com foco em JavaScript, Typ
 
 - GitHub: [github.com/andrecesarhdev](https://github.com/andrecesarhdev)
 - LinkedIn: [linkedin.com/in/andrecesar-dev](https://www.linkedin.com/in/andrecesar-dev/)
-- E-mail: andrecesarhenrique@gmail.com
+- E-mail: andrecesarprogramador@gmail.com

@@ -2,13 +2,13 @@ import type { Project } from "../types";
 
 export const projects: Project[] = [
   {
-    id: "nutrihub",
-    name: "nutrihub",
-    description: "Plataforma SaaS de delivery white label para restaurantes, com painel administrativo independente por cliente.",
-    problem: "Pequenos restaurantes sem um cardápio digital gerenciável, dependendo de soluções caras ou genéricas.",
-    technologies: ["NestJS", "TypeScript", "MySQL", "JWT", "Swagger"],
-    githubUrl: "https://github.com/Grupo-04-Turma-JavaScript-12/nutrihub",
-    liveUrl: "https://nutrihub-l8i9.onrender.com/swagger",
+    id: "gestor-financeiro",
+    name: "gestor-financeiro",
+    description: "API REST para gestão de finanças pessoais, com receitas, despesas, categorias e relatórios por período, em produção.",
+    problem: "A falta de controle sobre o próprio dinheiro. Criei para uso próprio e para ajudar outras pessoas a organizarem suas finanças.",
+    technologies: ["NestJS", "PostgreSQL", "Prisma", "Jest", "Docker", "GitHub Actions"],
+    githubUrl: "https://github.com/andrecesarhdev/gestor-financeiro-backend",
+    liveUrl: "https://gestor-financeiro-api-1369.onrender.com/docs",
   },
   {
     id: "crm-backend-nestjs",
@@ -21,9 +21,9 @@ export const projects: Project[] = [
   {
     id: "sistema-biblioteca",
     name: "sistema-biblioteca",
-    description: "Sistema de gerenciamento de biblioteca com testes automatizados e pipelines de CI/CD.",
+    description: "Sistema de gerenciamento de biblioteca desenvolvido em equipe, com testes automatizados e pipelines de CI/CD.",
     problem: "Aplicar na prática o que venho aprendendo em DevOps, com deploy automatizado e testes confiáveis.",
-    technologies: ["Python", "GitHub Actions", "GitLab CI/CD", "unittest"],
+    technologies: ["Python", "GitHub Actions", "GitLab CI/CD", "unittest", "Docker"],
     githubUrl: "https://github.com/andrecesarhdev/sistema-biblioteca",
   },
 ];
