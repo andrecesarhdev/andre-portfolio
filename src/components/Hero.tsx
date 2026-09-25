@@ -38,7 +38,7 @@ function Hero() {
               Ver projetos
             </a>
             <a
-              href="/public/Andre-Cesar-Desenvolvedor-FullStack.pdf"
+              href="/Andre-Cesar-Desenvolvedor-FullStack.pdf"
               target="_blank"
               rel="noopener noreferrer"
               className="border border-border hover:border-accent text-text-primary font-medium px-6 py-3 rounded-lg transition-colors"
